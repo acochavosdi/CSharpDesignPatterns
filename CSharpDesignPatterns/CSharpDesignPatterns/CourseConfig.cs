@@ -8,6 +8,7 @@ namespace CSharpDesignPatterns
 {
     public class CourseConfig
     {
-        public bool _1_SingleResponsibilityPrinciple = true;
+        public bool _1_SingleResponsibilityPrinciple = false;
+        public bool _2_OpenClosedPrincipleV1 = true;
     }
 }

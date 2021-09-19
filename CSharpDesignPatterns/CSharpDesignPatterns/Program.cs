@@ -1,6 +1,7 @@
-﻿using CSharpDesignPatterns.SOLID;
+﻿using CSharpDesignPatterns.SOLID.OpenClosedPrinciple;
+using CSharpDesignPatterns.SOLID.SingleResponsibilityPrinciple;
 using System;
-using static CSharpDesignPatterns.SOLID._1_SingleResponsibilityPrinciple;
+
 
 namespace CSharpDesignPatterns
 {
@@ -15,6 +16,9 @@ namespace CSharpDesignPatterns
             // SOLID
             var singleResponsibilityPrinciple = new _1_SingleResponsibilityPrinciple(courseConfig);
             singleResponsibilityPrinciple.Start();
+
+            var openClosedPrinciple = new _2_OpenClosedPrincipleV1(courseConfig);
+            openClosedPrinciple.Start();
 
         }
     }
